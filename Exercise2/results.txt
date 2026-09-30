@@ -1,0 +1,16 @@
+Exercise 2 - Parallel Addition
+================================
+
+Task:
+Calculate the sum of integers from 1 to 10,000,000 using MPI.
+
+Expected result:
+50000005000000
+
+Results:
+
+Processes    Execution Time (seconds)    Speedup
+1            0.010951                    1.000
+2            0.006239                    1.755
+4            0.004120                    2.658
+8            0.002156                    5.079
